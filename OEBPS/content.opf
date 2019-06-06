@@ -1,0 +1,296 @@
+<!-- <?xml version="1.0" encoding="utf-8" standalone="yes"?> -->
+<!-- p9783110539890
+056f9210-7650-11e9-b475-0800200c9a66 -->
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="p9783110539890" version="3.0">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+
+    <!-- ISBN -->
+    <dc:identifier id="p9783110539890">urn:isbn:p9783110539890</dc:identifier>
+    <dc:title>Pneumotórax</dc:title>
+    <dc:rights>Copyright © 2019 TotemClube. All rights reserved.</dc:rights>
+
+    <!-- BISAC Subject Headings List: http://bisg.org/?page=BISACFaQ -->
+    <!--dc:subject>[LIST / OF / SUBJECTS]</dc:subject-->
+
+    <!-- <dc:creator>Totem Clube</dc:creator> -->
+    <dc:creator id="creator">TotemClube</dc:creator>
+    <meta refines="#creator" property="file-as">Crane, Thomas</meta>
+    <meta refines="#creator" property="role" scheme="marc:relators">aut</meta>
+
+    <dc:creator id="illustrator">TotemClube</dc:creator>
+    <meta refines="#illustrator" property="file-as">TotemClube</meta>
+    <meta refines="#illustrator" property="role" scheme="marc:relators">ill</meta>
+
+    <dc:source>totemclube.com</dc:source>
+
+    <!-- List of contributors
+
+         See: MARC Code List for Relators: http://www.loc.gov/marc/relators/relaterm.html
+
+         Examples: 
+
+         * Editor [edt]
+           Use for a person or organization who prepares for publication a work not primarily his/her own,
+           such as by elucidating text, adding introductory or other critical matter, or technically directing
+           an editorial staff.
+
+         * Cover designer [cov]
+           Use for a person or organization responsible for the graphic design of a book cover,
+           album cover, slipcase, box, container, etc. For a person or organization responsible 
+           for the graphic design of an entire book, use Book designer; for book jackets, use Bookjacket designer.
+
+         * Translator [trl]
+           Use for a person or organization who renders a text from one language into another, or from an older 
+           form of a language into the modern form.
+
+         -->
+
+    <dc:contributor>TotemClube</dc:contributor>
+    <dc:contributor>TotemClube</dc:contributor>
+
+    <dc:publisher>TotemClube</dc:publisher>
+    <dc:date>2019-17-05</dc:date>
+    <meta property="dcterms:modified">2019-05-14T12:00:00Z</meta>
+
+    <!-- Language code: http://en.wikipedia.org/wiki/List_of_ISO_639-2_codes -->
+    <!-- Must be the descriptor to the epub downloaded for the person -->
+    <dc:language>por</dc:language>
+
+    <meta name="cover" content="cover.jpg" />
+
+    <!-- UUID generator: http://www.famkruithof.net/uuid/uuidgen -->
+    <dc:identifier>urn:uuid:056f9210-7650-11e9-b475-0800200c9a66</dc:identifier>
+    
+  </metadata>
+
+  <!-- MANIFEST (mandatory)
+       List of all the resources of the book (XHTML, CSS, images,…).
+       The order of item elements in the manifest is NOT significant.
+
+       http://idpf.org/epub/20/spec/OPF_2.0.1_draft.htm#Section2.3 
+  -->
+
+  <manifest>
+    <item href="Images/cover.jpg" id="cover.jpg" media-type="image/jpeg" />
+    <item href="Text/cover.xhtml" id="cover" media-type="application/xhtml+xml" />
+    <!-- <item href="toc.ncx" id="ncx" properties="nav" media-type="application/x-dtbncx+xml" /> -->
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
+    <item id="toc" properties="nav" href="Text/toc.xhtml" media-type="application/xhtml+xml"/>
+
+    <item href="Text/frontmatter.xhtml" id="frontmatter" media-type="application/xhtml+xml" />
+    <item href="Text/dedication.xhtml" id="dedication" media-type="application/xhtml+xml" />
+    <!-- <item href="Text/toc.xhtml" id="toc" media-type="application/xhtml+xml" /> -->
+    <item href="Text/foreword.xhtml" id="foreword" media-type="application/xhtml+xml" />
+    <item href="Text/introduction.xhtml" id="introduction" media-type="application/xhtml+xml" />
+    <item href="Text/chapter01.xhtml" id="chapter-1" media-type="application/xhtml+xml" properties="scripted" />
+    <item href="Text/chapter02.xhtml" id="chapter-2" media-type="application/xhtml+xml" properties="scripted" />
+    <item href="Text/chapter03.xhtml" id="chapter-3" media-type="application/xhtml+xml" properties="scripted" />
+    <item href="Text/chapter04.xhtml" id="chapter-4" media-type="application/xhtml+xml" properties="scripted" />
+    <item href="Text/chapter05.xhtml" id="chapter-5" media-type="application/xhtml+xml" properties="scripted" />
+    <item href="Text/chapter06.xhtml" id="chapter-6" media-type="application/xhtml+xml" properties="scripted" />
+    <item href="Text/chapter07.xhtml" id="chapter-7" media-type="application/xhtml+xml" properties="scripted" />
+    <item href="Text/chapter08.xhtml" id="chapter-8" media-type="application/xhtml+xml" properties="scripted" />
+    <item href="Text/chapter09.xhtml" id="chapter-9" media-type="application/xhtml+xml" properties="scripted" />
+    <item href="Text/chapter10.xhtml" id="chapter-10" media-type="application/xhtml+xml" properties="scripted" />
+    <item href="Text/endnotes.xhtml" id="endnotes" media-type="application/xhtml+xml" />
+    <item href="Text/acknowledgements.xhtml" id="acknowledgements" media-type="application/xhtml+xml" />
+
+    <item href="Styles/fonts.css" id="fonts-style" media-type="text/css" />
+    <item href="Styles/totem.css" id="totem-style" media-type="text/css" />
+    <item href="Styles/backgrounds.css" id="backgrounds-style" media-type="text/css" />
+    <item href="Styles/style.css" id="style-style" media-type="text/css" />
+    <item href="Styles/colors.css" id="colors-style" media-type="text/css" />
+    <item href="Styles/animations.css" id="animations-style" media-type="text/css" />
+    <item href="Styles/bootstrap/css/bootstrap.css" id="bootstrap-style" media-type="text/css" />
+    <item href="Styles/overrideFolio.css" id="override-style" media-type="text/css" />
+
+    <item href="javascript/colors.js" id="colors-js" media-type="text/javascript" />
+    <item href="javascript/audio.js" id="audio-js" media-type="text/javascript" />
+    
+    <item href="Images/image-01.jpg" id="image-01" media-type="image/jpeg" />
+    <item href="Images/image-02.png" id="image-02" media-type="image/png" />
+    <item href="Images/tuto-img-1.png" id="tuto-img-01" media-type="image/png" />
+    <item href="Images/tuto-img-2.png" id="tuto-img-02" media-type="image/png" />
+
+    <!-- Audios -->
+    <item href="Audios/n1.wav" id="note-1" media-type="audio/wav" />
+    <item href="Audios/n2.wav" id="note-2" media-type="audio/wav" />
+    <item href="Audios/n3.wav" id="note-3" media-type="audio/wav" />
+    <item href="Audios/n4.wav" id="note-4" media-type="audio/wav" />
+    <item href="Audios/n5.wav" id="note-5" media-type="audio/wav" />
+    <item href="Audios/respire.wav" id="respire-1" media-type="audio/wav" />
+    <item href="Audios/tosse1.wav" id="tosse-1" media-type="audio/wav" />
+    <item href="Audios/tosse2.wav" id="tosse-2" media-type="audio/wav" />
+    <item href="Audios/tosse3.wav" id="tosse-3" media-type="audio/wav" />
+    <item href="Audios/nALL.wav" id="note-all" media-type="audio/wav" />
+
+    <!-- Videos -->
+    <item href="Videos/opening.mp4" id="video-01" media-type="video/mp4" />
+
+    <!-- Fonts -->
+    <item href="fonts/RobotoCondensed-Bold.otf" id="RobotoCondensed-Bold" media-type="font/opentype" />
+    <item href="fonts/RobotoCondensed-BoldItalic.otf" id="RobotoCondensed-BoldItalic" media-type="font/opentype" />
+    <item href="fonts/RobotoCondensed-Italic.otf" id="RobotoCondensed-Italic" media-type="font/opentype" />
+    <item href="fonts/RobotoCondensed-Light.otf" id="RobotoCondensed-Light" media-type="font/opentype" />
+    <item href="fonts/RobotoCondensed-LightItalic.otf" id="RobotoCondensed-LightItalic" media-type="font/opentype" />
+    <item href="fonts/RobotoCondensed-Regular.otf" id="RobotoCondensed" media-type="font/opentype" />
+
+    <!-- Roboto -->
+    <item href="fonts/Roboto_RobotoCondensed/Roboto-Black.woff" id="Roboto-Black-woff" media-type="application/font-woff" />
+    <item href="fonts/Roboto_RobotoCondensed/Roboto-Black.woff2" id="Roboto-Black-woff2" media-type="font/woff2" />
+
+    <item href="fonts/Roboto_RobotoCondensed/Roboto-BlackItalic.woff" id="Roboto-BlackItalic-woff" media-type="application/font-woff" />
+    <item href="fonts/Roboto_RobotoCondensed/Roboto-BlackItalic.woff2" id="Roboto-BlackItalic-woff2" media-type="font/woff2" />
+
+    <item href="fonts/Roboto_RobotoCondensed/Roboto-Bold.woff" id="Roboto-Bold-woff" media-type="application/font-woff" />
+    <item href="fonts/Roboto_RobotoCondensed/Roboto-Bold.woff2" id="Roboto-Bold-woff2" media-type="font/woff2" />
+
+    <item href="fonts/Roboto_RobotoCondensed/Roboto-BoldItalic.woff" id="Roboto-BoldItalic-woff" media-type="application/font-woff" />
+    <item href="fonts/Roboto_RobotoCondensed/Roboto-BoldItalic.woff2" id="Roboto-BoldItalic-woff2" media-type="font/woff2" />
+
+    <item href="fonts/Roboto_RobotoCondensed/Roboto-Italic.woff" id="Roboto-Italic-woff" media-type="application/font-woff" />
+    <item href="fonts/Roboto_RobotoCondensed/Roboto-Italic.woff2" id="Roboto-Italic-woff2" media-type="font/woff2" />
+
+    <item href="fonts/Roboto_RobotoCondensed/Roboto-Light.woff" id="Roboto-Light-woff" media-type="application/font-woff" />
+    <item href="fonts/Roboto_RobotoCondensed/Roboto-Light.woff2" id="Roboto-Light-woff2" media-type="font/woff2" />
+
+    <item href="fonts/Roboto_RobotoCondensed/Roboto-LightItalic.woff" id="Roboto-LightItalic-woff" media-type="application/font-woff" />
+    <item href="fonts/Roboto_RobotoCondensed/Roboto-LightItalic.woff2" id="Roboto-LightItalic-woff2" media-type="font/woff2" />
+
+    <item href="fonts/Roboto_RobotoCondensed/Roboto-Medium.woff" id="Roboto-Medium-woff" media-type="application/font-woff" />
+    <item href="fonts/Roboto_RobotoCondensed/Roboto-Medium.woff2" id="Roboto-Medium-woff2" media-type="font/woff2" />
+
+    <item href="fonts/Roboto_RobotoCondensed/Roboto-MediumItalic.woff" id="Roboto-MediumItalic-woff" media-type="application/font-woff" />
+    <item href="fonts/Roboto_RobotoCondensed/Roboto-MediumItalic.woff2" id="Roboto-MediumItalic-woff2" media-type="font/woff2" />
+
+    <item href="fonts/Roboto_RobotoCondensed/Roboto-Regular.woff" id="Roboto-Regular-woff" media-type="application/font-woff" />
+    <item href="fonts/Roboto_RobotoCondensed/Roboto-Regular.woff2" id="Roboto-Regular-woff2" media-type="font/woff2" />
+
+    <item href="fonts/Roboto_RobotoCondensed/Roboto-Thin.woff" id="Roboto-Thin-woff" media-type="application/font-woff" />
+    <item href="fonts/Roboto_RobotoCondensed/Roboto-Thin.woff2" id="Roboto-Thin-woff2" media-type="font/woff2" />
+
+    <item href="fonts/Roboto_RobotoCondensed/Roboto-ThinItalic.woff" id="Roboto-ThinItalic-woff" media-type="application/font-woff" />
+    <item href="fonts/Roboto_RobotoCondensed/Roboto-ThinItalic.woff2" id="Roboto-ThinItalic-woff2" media-type="font/woff2" />
+
+    <item href="fonts/Roboto_RobotoCondensed/RobotoCondensed-Bold.woff" id="RobotoCondensed-Bold-woff" media-type="application/font-woff" />
+    <item href="fonts/Roboto_RobotoCondensed/RobotoCondensed-Bold.woff2" id="RobotoCondensed-Bold-woff2" media-type="font/woff2" />
+
+    <item href="fonts/Roboto_RobotoCondensed/RobotoCondensed-BoldItalic.woff" id="RobotoCondensed-BoldItalic-woff" media-type="application/font-woff" />
+    <item href="fonts/Roboto_RobotoCondensed/RobotoCondensed-BoldItalic.woff2" id="RobotoCondensed-BoldItalic-woff2" media-type="font/woff2" />
+
+    <item href="fonts/Roboto_RobotoCondensed/RobotoCondensed-Italic.woff" id="RobotoCondensed-Italic-woff" media-type="application/font-woff" />
+    <item href="fonts/Roboto_RobotoCondensed/RobotoCondensed-Italic.woff2" id="RobotoCondensed-Italic-woff2" media-type="font/woff2" />
+
+    <item href="fonts/Roboto_RobotoCondensed/RobotoCondensed-Light.woff" id="RobotoCondensed-Light-woff" media-type="application/font-woff" />
+    <item href="fonts/Roboto_RobotoCondensed/RobotoCondensed-Light.woff2" id="RobotoCondensed-Light-woff2" media-type="font/woff2" />
+
+    <item href="fonts/Roboto_RobotoCondensed/RobotoCondensed-LightItalic.woff" id="RobotoCondensed-LightItalic-woff" media-type="application/font-woff" />
+    <item href="fonts/Roboto_RobotoCondensed/RobotoCondensed-LightItalic.woff2" id="RobotoCondensed-LightItalic-woff2" media-type="font/woff2" />
+
+    <item href="fonts/Roboto_RobotoCondensed/RobotoCondensed-Regular.woff" id="RobotoCondensed-Regular-woff" media-type="application/font-woff" />
+    <item href="fonts/Roboto_RobotoCondensed/RobotoCondensed-Regular.woff2" id="RobotoCondensed-Regular-woff2" media-type="font/woff2" />
+  </manifest>
+
+  <!-- SPINE (mandatory)
+
+       The spine element defines the default reading order of the content. It doesn't list every file in the manifest, 
+       just the reading order.
+
+       The value of the idref tag in the spine has to match the ID tag for that entry in the manifest.
+
+       For example, if you have the following reference in your manifest:
+
+          <item id="chapter-1" href="chapter01.xhtml" media-type="application/xhtml+xml" />
+
+       your spine entry would be:
+
+          <itemref idref="chapter-1" />
+
+       http://idpf.org/epub/20/spec/OPF_2.0.1_draft.htm#Section2.4
+
+       -->
+  <spine toc="ncx">
+    <itemref idref="cover" />
+    <!-- <itemref idref="frontmatter" />
+    <itemref idref="toc" />
+    <itemref idref="foreword" />
+    <itemref idref="dedication" />
+    <itemref idref="introduction" /> -->
+    <itemref idref="chapter-1" />
+    <itemref idref="chapter-2" />
+    <itemref idref="chapter-3" />
+    <itemref idref="chapter-4" />
+    <itemref idref="chapter-5" />
+    <itemref idref="chapter-5-1" />
+    <itemref idref="chapter-6" />
+    <itemref idref="chapter-7" />
+    <itemref idref="chapter-8" />
+    <itemref idref="chapter-9" />
+    <itemref idref="chapter-10" />
+    <itemref idref="chapter-11" />
+    <itemref idref="chapter-12" />
+    <itemref idref="chapter-13" />
+    <itemref idref="chapter-14" />
+    <itemref idref="chapter-15" />
+    <itemref idref="chapter-16" />
+    <itemref idref="chapter-17" />
+    <itemref idref="chapter-18" />
+    <itemref idref="chapter-19" />
+    <itemref idref="chapter-20" />
+    <itemref idref="chapter-21" />
+    <itemref idref="chapter-22" />
+    <itemref idref="chapter-23" />
+    <!-- <itemref idref="endnotes" />
+    <itemref idref="acknowledgements" /> -->
+
+  </spine>
+
+  <!-- GUIDE (optional, recommended by Apple)
+
+        The guide lets you specify the role of the book's files.
+
+        Available tags: cover, title-page, toc, index, glossary, acknowledgements, bibliography,
+        colophon, copyright-page, dedication, epigraph, foreword, loi (list of illustrations),
+        lot (list of tables), notes, preface, and text.
+
+        http://idpf.org/epub/20/spec/OPF_2.0.1_draft.htm#Section2.6
+
+       -->
+  <guide>
+    <reference href="Text/cover.xhtml" title="Cover" type="cover" />
+    <!-- <reference href="Text/toc.xhtml" title="Table of Contents" type="toc" />
+    <reference href="Text/frontmatter.xhtml" type="copyright-page" />
+    <reference href="Text/foreword.xhtml" type="foreword" />
+    <reference href="Text/dedication.xhtml" type="dedication" />
+    <reference href="Text/introduction.xhtml" type="text" /> -->
+    <reference href="Text/chapter01.xhtml" type="text" />
+    <reference href="Text/chapter02.xhtml" type="text" />
+    <reference href="Text/chapter03.xhtml" type="text" />
+    <reference href="Text/chapter04.xhtml" type="text" />
+    <reference href="Text/chapter05.xhtml" type="text" />
+    <reference href="Text/chapter05-01.xhtml" type="text" />
+    <reference href="Text/chapter06.xhtml" type="text" />
+    <reference href="Text/chapter07.xhtml" type="text" />
+    <reference href="Text/chapter08.xhtml" type="text" />
+    <reference href="Text/chapter09.xhtml" type="text" />
+    <reference href="Text/chapter10.xhtml" type="text" />
+    <reference href="Text/chapter11.xhtml" type="text" />
+    <reference href="Text/chapter12.xhtml" type="text" />
+    <reference href="Text/chapter13.xhtml" type="text" />
+    <reference href="Text/chapter14.xhtml" type="text" />
+    <reference href="Text/chapter15.xhtml" type="text" />
+    <reference href="Text/chapter16.xhtml" type="text" />
+    <reference href="Text/chapter17.xhtml" type="text" />
+    <reference href="Text/chapter18.xhtml" type="text" />
+    <reference href="Text/chapter19.xhtml" type="text" />
+    <reference href="Text/chapter20.xhtml" type="text" />
+    <reference href="Text/chapter21.xhtml" type="text" />
+    <reference href="Text/chapter22.xhtml" type="text" />
+    <reference href="Text/chapter23.xhtml" type="text" />
+
+    <!-- <reference href="Text/endnotes.xhtml" type="notes" />
+    <reference href="Text/acknowledgements.xhtml" type="acknowledgements" /> -->
+    
+  </guide>
+
+</package>

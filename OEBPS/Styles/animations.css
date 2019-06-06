@@ -1,0 +1,150 @@
+@keyframes kf-breathing {
+  0% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+
+  40% {
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+
+  60% {
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes kf-move-left {
+  0% {
+  	left: 100%;
+  }
+
+  100% {
+    left: -100%;
+  }
+}
+
+@keyframes kf-appear-1 {
+	0% {
+		opacity: 0;
+	}
+
+	25% {
+		opacity: 1;
+	}
+
+	50% {
+		opacity: 1;
+	}
+
+	75% {
+		opacity: 1;
+	}
+
+	99% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+@keyframes kf-appear-2 {
+	0% {
+		opacity: 0;
+	}
+
+	25% {
+		opacity: 0;
+	}
+
+	50% {
+		opacity: 1;
+	}
+
+	75% {
+		opacity: 1;
+	}
+
+	99% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+@keyframes kf-appear-3 {
+	0% {
+		opacity: 0;
+	}
+
+	25% {
+		opacity: 0;
+	}
+
+	50% {
+		opacity: 0;
+	}
+
+	75% {
+		opacity: 1;
+	}
+
+	99% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+
+ .animation-breath {
+ 	-webkit-animation: kf-breathing 4s ease-out infinite normal;
+    animation: kf-breathing 4s ease-out infinite normal;
+ }
+
+ .animation-move-left {
+ 	-webkit-animation: kf-move-left 8s ease-out infinite normal;
+    animation: kf-move-left 8s ease-out infinite normal;
+ }
+
+
+.animation-appear-1 {
+	-webkit-animation: kf-appear-1 4s ease-out infinite normal;
+    animation: kf-appear-1 4s ease-out infinite normal;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.animation-appear-2 {
+	-webkit-animation: kf-appear-2 4s ease-out infinite normal;
+    animation: kf-appear-2 4s ease-out infinite normal;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.animation-appear-3 {
+	-webkit-animation: kf-appear-3 4s ease-out infinite normal;
+    animation: kf-appear-3 4s ease-out infinite normal;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+
+
+

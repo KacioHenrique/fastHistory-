@@ -1,0 +1,77 @@
+.totem-text {
+  font-family: "Roboto Condensed";
+  font-weight: bold;
+  font-size: 85px;
+  font-style: italic;
+  color: var(--totem-green);
+  text-shadow: 2px 2px #FFFFFF;
+}
+
+
+.totem-text-dark-shadow {
+  font-family: "Roboto Condensed";
+  font-weight: bold;
+  font-size: 85px;
+  font-style: italic;
+  color: var(--totem-green);
+  text-shadow: 2px 2px var(--totem-black);
+  line-height: 82px;
+}
+
+.totem-text-blue {
+  font-family: "Roboto Condensed";
+  font-weight: bold;
+  font-size: 85px;
+  font-style: italic;
+  color: var(--totem-blue);
+  text-shadow: 2px 2px #FFFFFF;
+  line-height: 82px;
+}
+
+.totem-text-white {
+  font-family: "Roboto Condensed";
+  font-weight: bold;
+  font-size: 85px;
+  font-style: italic;
+  color: #FFFFFF;
+  text-shadow: 2px 2px var(--totem-black);
+  line-height: 82px;
+}
+
+.insta-btn {
+  background-color: var(--button-red);
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+  padding-left: 15px;
+  padding-right: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: none;
+}
+
+.vertical-justify {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.vertical-centered {
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.top-offset-33 {
+  margin-top: 30vh;
+}
+
+/*.full-centered {
+
+}*/
+
+
+
+
+

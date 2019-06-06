@@ -1,0 +1,32 @@
+.totem-bg-dark {
+  background-color: var(--totem-black) !important;
+  /*background-color: #1A1713;*/
+}
+
+.totem-bg-light {
+  background-color: #FFFFFF;
+}
+
+.totem-bg-blue {
+  background-color: var(--totem-blue);
+}
+
+.totem-bg-red {
+  background-color: var(--totem-red);
+}
+
+.totem-bg-dark h1,
+.totem-bg-dark h2,
+.totem-bg-dark h3,
+.totem-bg-dark h4,
+.totem-bg-dark h5,
+.totem-bg-dark h6,
+.totem-bg-dark p,
+.totem-bg-dark span
+ {
+	color: white;
+}
+
+.totem-bg-dark div {
+	background-color: var(--totem-black);
+}
